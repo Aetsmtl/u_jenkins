@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>org.codehaus.plexus</groupId>
+	<artifactId>plexus-interactivity-api</artifactId>
+	<version>debian</version>
+	<packaging>jar</packaging>
+	<properties>
+		<debian.mavenRules>org.codehaus.plexus plexus-interactivity-api jar s/.*/debian/ * *</debian.mavenRules>
+		<debian.org.codehaus.plexus.plexus-container-default.originalVersion>1.0-beta-3.0.7</debian.org.codehaus.plexus.plexus-container-default.originalVersion>
+		<debian.org.codehaus.plexus.plexus-utils.originalVersion>1.4</debian.org.codehaus.plexus.plexus-utils.originalVersion>
+		<debian.originalVersion>1.0-alpha-6</debian.originalVersion>
+		<debian.package>libplexus-interactivity-api-java</debian.package>
+	</properties>
+	
+	<name>Plexus Default Interactivity Handler</name>
+	<dependencies>
+		<dependency>
+			<groupId>org.codehaus.plexus</groupId>
+			<artifactId>plexus-utils</artifactId>
+			<version>debian</version>
+		</dependency>
+		<dependency>
+			<groupId>org.codehaus.plexus</groupId>
+			<artifactId>plexus-container-default</artifactId>
+			<version>debian</version>
+		</dependency>
+	</dependencies>
+</project>

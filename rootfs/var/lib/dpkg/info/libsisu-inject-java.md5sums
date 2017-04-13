@@ -1,0 +1,7 @@
+fb37c7d713b98e7d77d1d02e838b267d  usr/share/doc/libsisu-inject-java/changelog.Debian.gz
+a660c419e804b2f1d40fb0115c31a6b6  usr/share/doc/libsisu-inject-java/copyright
+5196c6914289247193166440af0c26a7  usr/share/java/sisu-inject.jar
+cfbe7c3fb5fe4ab7b23f88246bc00263  usr/share/maven-repo/org/eclipse/sisu/org.eclipse.sisu.inject/0.3.2/org.eclipse.sisu.inject-0.3.2.pom
+7b4d2d37509a35c035824b7d39bae6c9  usr/share/maven-repo/org/eclipse/sisu/org.eclipse.sisu.inject/debian/org.eclipse.sisu.inject-debian.pom
+bee4957ba0a6f85be2a9d6a0db1af3bd  usr/share/maven-repo/org/eclipse/sisu/sisu-inject/0.3.2/sisu-inject-0.3.2.pom
+b40697ae0141090397c55e68fc4c0289  usr/share/maven-repo/org/eclipse/sisu/sisu-inject/debian/sisu-inject-debian.pom

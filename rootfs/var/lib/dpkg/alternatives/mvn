@@ -1,0 +1,15 @@
+auto
+/usr/bin/mvn
+mvn.1.gz
+/usr/share/man/man1/mvn.1.gz
+mvnDebug
+/usr/bin/mvnDebug
+mvnDebug.1.gz
+/usr/share/man/man1/mvnDebug.1.gz
+
+/usr/share/maven/bin/mvn
+300
+/usr/share/maven/man/mvn.1.gz
+/usr/share/maven/bin/mvnDebug
+/usr/share/maven/man/mvnDebug.1.gz
+

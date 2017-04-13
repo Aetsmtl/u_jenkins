@@ -13,3 +13,28 @@ Apr 13 09:11:53 ptc_jenkins su[446]: pam_unix(su:session): session closed for us
 Apr 13 09:11:53 ptc_jenkins sudo: pam_unix(sudo:session): session closed for user root
 Apr 13 09:17:01 ptc_jenkins CRON[458]: pam_unix(cron:session): session opened for user root by (uid=0)
 Apr 13 09:17:01 ptc_jenkins CRON[458]: pam_unix(cron:session): session closed for user root
+Apr 13 09:48:36 ptc_jenkins sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt-get install gedit
+Apr 13 09:48:36 ptc_jenkins sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Apr 13 09:50:11 ptc_jenkins groupadd[10823]: group added to /etc/group: name=messagebus, GID=111
+Apr 13 09:50:11 ptc_jenkins groupadd[10823]: group added to /etc/gshadow: name=messagebus
+Apr 13 09:50:11 ptc_jenkins groupadd[10823]: new group: name=messagebus, GID=111
+Apr 13 09:50:11 ptc_jenkins useradd[10827]: new user: name=messagebus, UID=107, GID=111, home=/var/run/dbus, shell=/bin/false
+Apr 13 09:50:11 ptc_jenkins usermod[10832]: change user 'messagebus' password
+Apr 13 09:50:11 ptc_jenkins chage[10837]: changed password expiry for messagebus
+Apr 13 09:50:17 ptc_jenkins groupadd[11022]: group added to /etc/group: name=scanner, GID=112
+Apr 13 09:50:17 ptc_jenkins groupadd[11022]: group added to /etc/gshadow: name=scanner
+Apr 13 09:50:17 ptc_jenkins groupadd[11022]: new group: name=scanner, GID=112
+Apr 13 09:50:18 ptc_jenkins groupadd[11077]: group added to /etc/group: name=colord, GID=113
+Apr 13 09:50:18 ptc_jenkins groupadd[11077]: group added to /etc/gshadow: name=colord
+Apr 13 09:50:18 ptc_jenkins groupadd[11077]: new group: name=colord, GID=113
+Apr 13 09:50:18 ptc_jenkins useradd[11081]: new user: name=colord, UID=108, GID=113, home=/var/lib/colord, shell=/bin/false
+Apr 13 09:50:18 ptc_jenkins usermod[11086]: change user 'colord' password
+Apr 13 09:50:18 ptc_jenkins chage[11091]: changed password expiry for colord
+Apr 13 09:50:18 ptc_jenkins chfn[11094]: changed user 'colord' information
+Apr 13 09:50:23 ptc_jenkins sudo: pam_unix(sudo:session): session closed for user root
+Apr 13 09:50:52 ptc_jenkins sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt-get remove gedit
+Apr 13 09:50:52 ptc_jenkins sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Apr 13 09:50:56 ptc_jenkins sudo: pam_unix(sudo:session): session closed for user root
+Apr 13 09:53:08 ptc_jenkins sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt-get install maven
+Apr 13 09:53:08 ptc_jenkins sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Apr 13 09:53:49 ptc_jenkins sudo: pam_unix(sudo:session): session closed for user root

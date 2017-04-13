@@ -1,0 +1,5 @@
+f83378f43e37a068cb519b6024dfd57d  usr/share/doc/libplexus-cli-java/changelog.Debian.gz
+5c9afff31353c2b38f175430aff35024  usr/share/doc/libplexus-cli-java/copyright
+1fd963a5f83d2fd20f1e5c796d5f5daa  usr/share/java/plexus-cli.jar
+f59d3a4ad061572e97e78ebdc92f207c  usr/share/maven-repo/org/codehaus/plexus/plexus-cli/1.2/plexus-cli-1.2.pom
+fa90181705b8713347340e7d965ccea2  usr/share/maven-repo/org/codehaus/plexus/plexus-cli/debian/plexus-cli-debian.pom

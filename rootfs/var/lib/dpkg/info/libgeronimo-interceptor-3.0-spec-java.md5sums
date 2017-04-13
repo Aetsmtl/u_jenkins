@@ -1,0 +1,6 @@
+92b0b0943fb35988c6c47ebe70207ac2  usr/share/doc/libgeronimo-interceptor-3.0-spec-java/README.Debian
+848c2524610198eca49ebcd53be072e8  usr/share/doc/libgeronimo-interceptor-3.0-spec-java/changelog.Debian.gz
+809265823cd712f31d6fbf12523cfb3d  usr/share/doc/libgeronimo-interceptor-3.0-spec-java/copyright
+8f2a3ce44248c7b4040adc43602d6e8f  usr/share/java/geronimo-interceptor-3.0-spec-1.0.1.jar
+ab585889cc21cdc770b9034069e8a05b  usr/share/maven-repo/org/apache/geronimo/specs/geronimo-interceptor_3.0_spec/1.0.1/geronimo-interceptor_3.0_spec-1.0.1.pom
+a5c16ff0320ce819e0285d3960fe3737  usr/share/maven-repo/org/apache/geronimo/specs/geronimo-interceptor_3.0_spec/debian/geronimo-interceptor_3.0_spec-debian.pom

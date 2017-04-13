@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>org.apache.xbean</groupId>
+	<artifactId>maven-xbean-plugin</artifactId>
+	<version>4.5</version>
+	<packaging>maven-plugin</packaging>
+	<parent>
+		<groupId>org.apache.xbean</groupId>
+		<artifactId>xbean</artifactId>
+		<version>debian</version>
+	</parent>
+	<properties>
+		
+			<debian.org.apache.maven.maven-archiver.originalVersion>2.0</debian.org.apache.maven.maven-archiver.originalVersion>
+		
+			<debian.org.apache.maven.maven-artifact.originalVersion>2.0</debian.org.apache.maven.maven-artifact.originalVersion>
+		
+			<debian.org.apache.maven.maven-plugin-api.originalVersion>2.0</debian.org.apache.maven.maven-plugin-api.originalVersion>
+		
+			<debian.org.apache.maven.maven-project.originalVersion>2.0</debian.org.apache.maven.maven-project.originalVersion>
+		
+			<debian.org.apache.xbean.xbean-spring.originalVersion>4.5</debian.org.apache.xbean.xbean-spring.originalVersion>
+		
+			<debian.org.codehaus.plexus.plexus-archiver.originalVersion>1.0-alpha-5</debian.org.codehaus.plexus.plexus-archiver.originalVersion>
+		
+			<debian.org.codehaus.plexus.plexus-utils.originalVersion>1.1</debian.org.codehaus.plexus.plexus-utils.originalVersion>
+		
+			<debian.org.springframework.spring-beans.originalVersion>2.0.5</debian.org.springframework.spring-beans.originalVersion>
+		
+			<debian.org.springframework.spring-context.originalVersion>2.0.5</debian.org.springframework.spring-context.originalVersion>
+		
+			<debian.originalVersion>4.5</debian.originalVersion>
+		
+			<debian.package>libxbean-java</debian.package>
+	</properties>
+	
+	<!--
+
+    Licensed to the Apache Software Foundation (ASF) under one or more
+    contributor license agreements.  See the NOTICE file distributed with
+    this work for additional information regarding copyright ownership.
+    The ASF licenses this file to You under the Apache License, Version 2.0
+    (the "License"); you may not use this file except in compliance with
+    the License.  You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+
+-->
+	<!-- $Rev: 432962 $ $Date: 2006-08-20 03:47:39 -0700 (Sun, 20 Aug 2006) $ -->
+	<name>Apache XBean :: Maven Plugin</name>
+	<dependencies>
+		<dependency>
+			<groupId>org.apache.xbean</groupId>
+			<artifactId>xbean-spring</artifactId>
+			<version>debian</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-beans</artifactId>
+			<version>3.x</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+			<version>3.x</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.maven</groupId>
+			<artifactId>maven-project</artifactId>
+			<version>debian</version>
+		</dependency>
+		<dependency>
+			<groupId>org.codehaus.plexus</groupId>
+			<artifactId>plexus-archiver</artifactId>
+			<version>debian</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.maven</groupId>
+			<artifactId>maven-archiver</artifactId>
+			<version>debian</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.maven</groupId>
+			<artifactId>maven-plugin-api</artifactId>
+			<version>debian</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.ant</groupId>
+			<artifactId>ant</artifactId>
+			<optional>true</optional>
+		</dependency>
+		<dependency>
+			<groupId>com.thoughtworks.qdox</groupId>
+			<artifactId>qdox</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.codehaus.plexus</groupId>
+			<artifactId>plexus-utils</artifactId>
+			<version>debian</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.maven</groupId>
+			<artifactId>maven-artifact</artifactId>
+			<version>debian</version>
+		</dependency>
+	</dependencies>
+</project>

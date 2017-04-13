@@ -1,0 +1,10 @@
+9dd0393433c305a4944aedaa7ba15415  usr/share/doc/libhttpclient-java/changelog.Debian.gz
+7423e68914e50c010e53986e6d339e65  usr/share/doc/libhttpclient-java/copyright
+34e9ab44f624a98877aa8175d260bd6b  usr/share/java/fluent-hc.jar
+dd768b2bd8ecfc59fa6e83751f30172c  usr/share/java/httpclient.jar
+941c324422bf991f632b897962c533b8  usr/share/maven-repo/org/apache/httpcomponents/fluent-hc/4.5.1/fluent-hc-4.5.1.pom
+b6b2d7f94b733f9eab88061710261e7e  usr/share/maven-repo/org/apache/httpcomponents/fluent-hc/debian/fluent-hc-debian.pom
+9c5ec553ca9fdff24a694caf4bced10a  usr/share/maven-repo/org/apache/httpcomponents/httpclient/4.5.1/httpclient-4.5.1.pom
+1b83f27af60774890e6c9203c5d2065b  usr/share/maven-repo/org/apache/httpcomponents/httpclient/debian/httpclient-debian.pom
+954b6060d0e2ecfb790ab90f6bdfad35  usr/share/maven-repo/org/apache/httpcomponents/httpcomponents-client/4.5.1/httpcomponents-client-4.5.1.pom
+c5ac16868468dcc834b846daa654ed4b  usr/share/maven-repo/org/apache/httpcomponents/httpcomponents-client/debian/httpcomponents-client-debian.pom

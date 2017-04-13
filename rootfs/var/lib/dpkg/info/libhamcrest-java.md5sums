@@ -1,0 +1,15 @@
+d8befb12df70aa71ad7f564bf5d7b896  usr/share/doc/libhamcrest-java/changelog.Debian.gz
+d96062ddd0b36054d4215bc972eeabdd  usr/share/doc/libhamcrest-java/copyright
+4ebf30e660cd9da82ed3ea92dd9e5657  usr/share/java/hamcrest-all-1.3.jar
+4129ae39b2f1a40ceea8cd8a7c877787  usr/share/java/hamcrest-core-1.3.jar
+3409f68d22b63fbaf280af0fb425b5e2  usr/share/java/hamcrest-generator-1.3.jar
+a6dd95f019150a1ce063e5cb208f149f  usr/share/java/hamcrest-library-1.3.jar
+cef9c556215fa4f5d34052a67b74e156  usr/share/java/hamcrest-unit-test-1.3.jar
+b75d00473d71e6af7a7890f8650ca6f2  usr/share/maven-repo/org/hamcrest/hamcrest-all/1.3/hamcrest-all-1.3.pom
+416b867a193a42ca080786fd45b5d6d6  usr/share/maven-repo/org/hamcrest/hamcrest-all/debian/hamcrest-all-debian.pom
+293914a8b67fac99b2d64466bc89682b  usr/share/maven-repo/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.pom
+7007e2b49c1b9ad1932a1def7c39133a  usr/share/maven-repo/org/hamcrest/hamcrest-core/debian/hamcrest-core-debian.pom
+f4f4e03483df1710635128c23526a873  usr/share/maven-repo/org/hamcrest/hamcrest-generator/1.3/hamcrest-generator-1.3.pom
+d043ae44e3b60586cf236abe6b47679d  usr/share/maven-repo/org/hamcrest/hamcrest-generator/debian/hamcrest-generator-debian.pom
+7ca13f2d0e06d39b473b5532e3c2fa3e  usr/share/maven-repo/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.pom
+eb51facb18c5d90ce0a9a5be3771ab0a  usr/share/maven-repo/org/hamcrest/hamcrest-library/debian/hamcrest-library-debian.pom

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ ~ Copyright (c) 2010, 2015 Sonatype, Inc.
+ ~ All rights reserved. This program and the accompanying materials
+ ~ are made available under the terms of the Eclipse Public License v1.0
+ ~ which accompanies this distribution, and is available at
+ ~ http://www.eclipse.org/legal/epl-v10.html
+ ~
+ ~ Contributors:
+ ~    Stuart McCulloch (Sonatype, Inc.) - initial API and implementation
+-->
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>org.eclipse.sisu</groupId>
+	<artifactId>sisu-inject</artifactId>
+	<version>debian</version>
+	<packaging>pom</packaging>
+	<name>Sisu Inject</name>
+	<description>JSR330-based container; supports classpath scanning, auto-binding, and dynamic auto-wiring</description>
+	<url>http://www.eclipse.org/sisu/</url>
+	<inceptionYear>2010</inceptionYear>
+	<organization>
+		<name>The Eclipse Foundation</name>
+		<url>http://www.eclipse.org/</url>
+	</organization>
+	<licenses>
+		<license>
+			<name>Eclipse Public License, Version 1.0</name>
+			<url>http://www.eclipse.org/legal/epl-v10.html</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+	<mailingLists>
+		<mailingList>
+			<name>Sisu Developers List</name>
+			<subscribe>sisu-dev-subscribe@eclipse.org</subscribe>
+			<unsubscribe>sisu-dev-unsubscribe@eclipse.org</unsubscribe>
+			<post>sisu-dev@eclipse.org</post>
+			<archive>http://dev.eclipse.org/mhonarc/lists/sisu-dev/</archive>
+		</mailingList>
+		<mailingList>
+			<name>Sisu Users List</name>
+			<subscribe>sisu-users-subscribe@eclipse.org</subscribe>
+			<unsubscribe>sisu-users-unsubscribe@eclipse.org</unsubscribe>
+			<post>sisu-users@eclipse.org</post>
+			<archive>http://dev.eclipse.org/mhonarc/lists/sisu-users/</archive>
+		</mailingList>
+	</mailingLists>
+	<modules>
+		<module>org.eclipse.sisu.inject</module>
+		<module>org.eclipse.sisu.inject.extender</module>
+		<module>org.eclipse.sisu.inject.tests</module>
+		<module>org.eclipse.sisu.inject.site</module>
+	</modules>
+	<scm>
+		<connection>scm:git:git://git.eclipse.org/gitroot/sisu/org.eclipse.sisu.inject.git</connection>
+		<developerConnection>scm:git:ssh://git.eclipse.org/gitroot/sisu/org.eclipse.sisu.inject.git</developerConnection>
+		<url>http://git.eclipse.org/c/sisu/org.eclipse.sisu.inject.git/tree/</url>
+	</scm>
+	<issueManagement>
+		<system>bugzilla</system>
+		<url>https://bugs.eclipse.org/bugs/enter_bug.cgi?product=Sisu&amp;component=Inject&amp;format=guided</url>
+	</issueManagement>
+	<properties>
+		<maven.compiler.source>1.6</maven.compiler.source>
+		<maven.compiler.target>1.6</maven.compiler.target>
+		<tycho.scmUrl>scm:git:http://git.eclipse.org/gitroot/sisu/org.eclipse.sisu.inject.git</tycho.scmUrl>
+		<tycho-version>0.22.0</tycho-version>
+		
+			<debian.mavenRules>org.eclipse.sisu sisu-inject pom s/.*/debian/ * *</debian.mavenRules>
+		
+			<debian.originalVersion>0.3.2</debian.originalVersion>
+		
+			<debian.package>libsisu-inject-java</debian.package>
+	</properties>
+</project>

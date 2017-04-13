@@ -1,0 +1,8 @@
+d9243e65bdc88efa37e64f2143e3caaa  usr/share/doc/libatinject-jsr330-api-java/changelog.Debian.gz
+499dfb3f8ca8f96645d5fba152aa45e8  usr/share/doc/libatinject-jsr330-api-java/copyright
+03e464810768050b4e60bee529566be2  usr/share/java/atinject-jsr330-api-1.0.jar
+54ed85e8fbc25b49f82ffc4663a59953  usr/share/java/atinject-jsr330-tck-1.0.jar
+ad336606ebd231a8bc832baa5263a83f  usr/share/maven-repo/javax/inject/javax.inject-tck/1/javax.inject-tck-1.pom
+10a9a14566e0e2fb8d56e8a4a06b2285  usr/share/maven-repo/javax/inject/javax.inject-tck/debian/javax.inject-tck-debian.pom
+3756319904d9e55c46a85f3be3e91ab8  usr/share/maven-repo/javax/inject/javax.inject/1/javax.inject-1.pom
+bfb3d871f69f30fc5f5ea519139c860a  usr/share/maven-repo/javax/inject/javax.inject/debian/javax.inject-debian.pom

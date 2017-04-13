@@ -1,0 +1,5 @@
+cbb3f90ed42b8e95f68ec741ead38297  usr/share/doc/libplexus-cipher-java/changelog.Debian.gz
+0a97bb5091355879e17c353653b04660  usr/share/doc/libplexus-cipher-java/copyright
+af13998f1d9a9f6e4602e826bb718ac3  usr/share/java/plexus-cipher.jar
+6b062d729ac0293d76c72832a0b8a2e4  usr/share/maven-repo/org/sonatype/plexus/plexus-cipher/1.7/plexus-cipher-1.7.pom
+95159837a2e799b57461d924092cc42d  usr/share/maven-repo/org/sonatype/plexus/plexus-cipher/debian/plexus-cipher-debian.pom

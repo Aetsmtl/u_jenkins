@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>org.easymock</groupId>
+	<artifactId>easymock</artifactId>
+	<version>debian</version>
+	<packaging>jar</packaging><properties>
+		
+			<debian.cglib.cglib.originalVersion>3.1</debian.cglib.cglib.originalVersion>
+		
+			<debian.com.google.dexmaker.dexmaker.originalVersion>1.1</debian.com.google.dexmaker.dexmaker.originalVersion>
+		
+			<debian.mavenRules>s/easymock/org.easymock/ easymock * s/.*/debian/ * *</debian.mavenRules>
+		
+			<debian.org.objenesis.objenesis.originalVersion>2.1</debian.org.objenesis.objenesis.originalVersion>
+		
+			<debian.org.ow2.asm.asm.originalVersion>5.0.3</debian.org.ow2.asm.asm.originalVersion>
+		
+			<debian.originalVersion>3.3.1</debian.originalVersion>
+		
+			<debian.package>libeasymock-java</debian.package>
+	</properties>
+	
+	<name>EasyMock</name>
+	<description>EasyMock provides an easy way to create Mock Objects for interfaces and classes generating them on the fly</description>
+	<inceptionYear>2001</inceptionYear>
+	<developers>
+		<developer>
+			<id>tammo</id>
+			<name>Tammo Freese</name>
+			<timezone>+1</timezone>
+		</developer>
+		<developer>
+			<id>henri</id>
+			<name>Henri Tremblay</name>
+			<url>http://blog.tremblay.pro/</url>
+			<timezone>-5</timezone>
+		</developer>
+	</developers>
+	<dependencies>
+		<!-- Used for class mocking -->
+		<dependency>
+			<groupId>cglib</groupId>
+			<artifactId>cglib</artifactId>
+			<version>3.x</version>
+		</dependency>
+		<!-- Use version 5 to be compliant with Java 8 -->
+		<dependency>
+			<groupId>org.ow2.asm</groupId>
+			<artifactId>asm</artifactId>
+			<version>4.x</version>
+			<scope>runtime</scope>
+		</dependency>
+		<!-- Used for class mocking -->
+		<dependency>
+			<groupId>org.objenesis</groupId>
+			<artifactId>objenesis</artifactId>
+			<version>debian</version>
+		</dependency>
+		<!-- Used for class mocking on Android (cglib replacement) -->
+		<dependency>
+			<groupId>com.google.dexmaker</groupId>
+			<artifactId>dexmaker</artifactId>
+			<version>debian</version>
+			<optional>true</optional>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<optional>true</optional>
+		<version>debian</version>
+		</dependency>
+	</dependencies>
+</project>

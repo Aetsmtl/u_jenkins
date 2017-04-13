@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>javax.inject</groupId>
+	<artifactId>javax.inject-tck</artifactId>
+	<version>1</version>
+	<packaging>jar</packaging><properties>
+		
+			<debian.javax.inject.javax.inject.originalVersion>1</debian.javax.inject.javax.inject.originalVersion>
+		
+			<debian.junit.junit.originalVersion>4.7</debian.junit.junit.originalVersion>
+		
+			<debian.originalVersion>1</debian.originalVersion>
+		
+			<debian.package>libatinject-jsr330-api-java</debian.package>
+	</properties>
+	
+	<name>javax.inject-tck</name>
+	<description>The javax.inject API - TCK</description>
+	<url>http://code.google.com/p/atinject/</url>
+	<licenses>
+		<license>
+			<name>The Apache Software License, Version 2.0</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+	<scm>
+		<connection>scm:svn:http://atinject.googlecode.com/svn/tags/javax.inject-tck-1</connection>
+		<developerConnection>scm:svn:https://atinject.googlecode.com/svn/tags/javax.inject-tck-1</developerConnection>
+		<url>http://code.google.com/p/atinject/source/checkout/tags/javax.inject-tck-1</url>
+	</scm>
+	<dependencies>
+		<dependency>
+			<groupId>javax.inject</groupId>
+			<artifactId>javax.inject</artifactId>
+			<version>debian</version>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.x</version>
+		</dependency>
+	</dependencies>
+	<developers>
+		<developer>
+			<id>various</id>
+			<name>Various</name>
+			<email>atinject-observer@googlegroups.com</email>
+			<url>http://groups.google.com/group/atinject-observer?pli=1</url>
+			<roles>
+				<role>developer</role>
+			</roles>
+			<timezone>-8</timezone>
+		</developer>
+	</developers>
+</project>

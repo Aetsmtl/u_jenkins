@@ -1,0 +1,2 @@
+# Deprecated package, preserved to avoid breaking the reverse dependencies until they are updated
+libplexus-containers1.5-java: empty-binary-package

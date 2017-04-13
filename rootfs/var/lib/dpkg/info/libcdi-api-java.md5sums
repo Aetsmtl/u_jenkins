@@ -1,0 +1,5 @@
+3ccf74a1ad88a1687ef323732d743e63  usr/share/doc/libcdi-api-java/changelog.Debian.gz
+7e79d579f84ec7631ef108a7812b5bae  usr/share/doc/libcdi-api-java/copyright
+9ba862866e5ae8cd3fc53dfa2f526659  usr/share/java/cdi-api-1.0.jar
+0caf6abcf7adf4d7d7f4a7f67860e5bd  usr/share/maven-repo/javax/enterprise/cdi-api/1.0/cdi-api-1.0.pom
+b17583ad2fbf117f08a9b1ca6ab5c63a  usr/share/maven-repo/javax/enterprise/cdi-api/debian/cdi-api-debian.pom

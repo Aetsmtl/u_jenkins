@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Licensed to the Apache Software Foundation (ASF) under one
+or more contributor license agreements.  See the NOTICE file
+distributed with this work for additional information
+regarding copyright ownership.  The ASF licenses this file
+to you under the Apache License, Version 2.0 (the
+"License"); you may not use this file except in compliance
+with the License.  You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>org.apache.maven.doxia</groupId>
+	<artifactId>doxia</artifactId>
+	<version>1.1.4</version>
+	<packaging>pom</packaging>
+	<name>Doxia</name>
+	<description>Doxia is a content generation framework that provides powerful techniques for generating static and dynamic content, supporting a variety of markup languages.</description>
+	<url>http://maven.apache.org/doxia/doxia</url>
+	<inceptionYear>2005</inceptionYear>
+	<mailingLists>
+		<mailingList>
+			<name>Doxia Developer List</name>
+			<post>doxia-dev@maven.apache.org</post>
+			<subscribe>doxia-dev-subscribe@maven.apache.org</subscribe>
+			<unsubscribe>doxia-dev-unsubscribe@maven.apache.org</unsubscribe>
+			<archive>http://mail-archives.apache.org/mod_mbox/maven-doxia-dev/</archive>
+			<otherArchives>
+				<otherArchive>http://www.mail-archive.com/doxia-dev@maven.apache.org</otherArchive>
+				<otherArchive>http://www.nabble.com/Doxia---dev-f11816.html</otherArchive>
+				<otherArchive>http://markmail.org/list/org.apache.maven.doxia-dev</otherArchive>
+			</otherArchives>
+		</mailingList>
+		<mailingList>
+			<name>Doxia User List</name>
+			<post>doxia-users@maven.apache.org</post>
+			<subscribe>doxia-users-subscribe@maven.apache.org</subscribe>
+			<unsubscribe>doxia-users-unsubscribe@maven.apache.org</unsubscribe>
+			<archive>http://mail-archives.apache.org/mod_mbox/maven-doxia-users/</archive>
+			<otherArchives>
+				<otherArchive>http://www.mail-archive.com/doxia-users@maven.apache.org</otherArchive>
+				<otherArchive>http://www.nabble.com/Doxia---Users-f14483.html</otherArchive>
+				<otherArchive>http://markmail.org/list/org.apache.maven.doxia-users</otherArchive>
+			</otherArchives>
+		</mailingList>
+		<mailingList>
+			<name>Doxia Commits List</name>
+			<subscribe>doxia-commits-subscribe@maven.apache.org</subscribe>
+			<unsubscribe>doxia-commits-unsubscribe@maven.apache.org</unsubscribe>
+			<archive>http://mail-archives.apache.org/mod_mbox/maven-doxia-commits/</archive>
+			<otherArchives>
+				<otherArchive>http://www.mail-archive.com/doxia-commits@maven.apache.org</otherArchive>
+				<otherArchive>http://markmail.org/list/org.apache.maven.doxia-commits</otherArchive>
+			</otherArchives>
+		</mailingList>
+		<mailingList>
+			<name>Maven Issues List</name>
+			<subscribe>issues-subscribe@maven.apache.org</subscribe>
+			<unsubscribe>issues-unsubscribe@maven.apache.org</unsubscribe>
+			<archive>http://mail-archives.apache.org/mod_mbox/maven-issues/</archive>
+			<otherArchives>
+				<otherArchive>http://www.mail-archive.com/issues@maven.apache.org</otherArchive>
+				<otherArchive>http://www.nabble.com/Maven---Issues-f15573.html</otherArchive>
+				<otherArchive>http://markmail.org/list/org.apache.maven.issues</otherArchive>
+			</otherArchives>
+		</mailingList>
+	</mailingLists>
+	<modules>
+		<module>doxia-logging-api</module>
+		<module>doxia-sink-api</module>
+		<module>doxia-test-docs</module>
+		<module>doxia-core</module>
+		<module>doxia-modules</module>
+		<module>doxia-book</module>
+		<module>doxia-maven-plugin</module>
+	</modules>
+	<scm>
+		<connection>scm:svn:http://svn.apache.org/repos/asf/maven/doxia/doxia/tags/doxia-1.1.4</connection>
+		<developerConnection>scm:svn:https://svn.apache.org/repos/asf/maven/doxia/doxia/tags/doxia-1.1.4</developerConnection>
+		<url>http://svn.apache.org/viewcvs.cgi/maven/doxia/doxia/tags/doxia-1.1.4</url>
+	</scm>
+	<issueManagement>
+		<system>jira</system>
+		<url>http://jira.codehaus.org/browse/DOXIA</url>
+	</issueManagement>
+	<properties>
+		<projectVersion>${project.version}</projectVersion>
+		
+			<debian.junit.junit.originalVersion>3.8.2</debian.junit.junit.originalVersion>
+		
+			<debian.mavenRules>org.apache.maven.doxia doxia pom s/.*/debian/ * *</debian.mavenRules>
+		
+			<debian.originalVersion>1.1.4</debian.originalVersion>
+		
+			<debian.package>libdoxia-core-java</debian.package>
+	</properties>
+	<dependencyManagement>
+		<dependencies>
+			<!-- doxia -->
+			<dependency>
+				<groupId>org.apache.maven.doxia</groupId>
+				<artifactId>doxia-sink-api</artifactId>
+				<version>debian</version>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.maven.doxia</groupId>
+				<artifactId>doxia-logging-api</artifactId>
+				<version>debian</version>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.maven.doxia</groupId>
+				<artifactId>doxia-core</artifactId>
+				<version>debian</version>
+			</dependency>
+			<!-- doxia modules -->
+			<dependency>
+				<groupId>org.apache.maven.doxia</groupId>
+				<artifactId>doxia-module-apt</artifactId>
+				<version>debian</version>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.maven.doxia</groupId>
+				<artifactId>doxia-module-confluence</artifactId>
+				<version>debian</version>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.maven.doxia</groupId>
+				<artifactId>doxia-module-docbook-simple</artifactId>
+				<version>debian</version>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.maven.doxia</groupId>
+				<artifactId>doxia-module-fml</artifactId>
+				<version>debian</version>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.maven.doxia</groupId>
+				<artifactId>doxia-module-fo</artifactId>
+				<version>debian</version>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.maven.doxia</groupId>
+				<artifactId>doxia-module-latex</artifactId>
+				<version>debian</version>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.maven.doxia</groupId>
+				<artifactId>doxia-module-itext</artifactId>
+				<version>debian</version>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.maven.doxia</groupId>
+				<artifactId>doxia-module-rtf</artifactId>
+				<version>debian</version>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.maven.doxia</groupId>
+				<artifactId>doxia-module-twiki</artifactId>
+				<version>debian</version>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.maven.doxia</groupId>
+				<artifactId>doxia-module-xdoc</artifactId>
+				<version>debian</version>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.maven.doxia</groupId>
+				<artifactId>doxia-module-xhtml</artifactId>
+				<version>debian</version>
+			</dependency>
+			<!-- Others -->
+			<dependency>
+				<groupId>org.apache.maven.doxia</groupId>
+				<artifactId>doxia-book</artifactId>
+				<version>debian</version>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.maven.doxia</groupId>
+				<artifactId>doxia-maven-plugin</artifactId>
+				<version>debian</version>
+			</dependency>
+			<!-- Plexus -->
+			<dependency>
+				<groupId>org.codehaus.plexus</groupId>
+				<artifactId>plexus-container-default</artifactId>
+				<version>1.0-alpha</version>
+			</dependency>
+			<dependency>
+				<groupId>org.codehaus.plexus</groupId>
+				<artifactId>plexus-utils</artifactId>
+				<version>debian</version>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>3.x</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+</project>

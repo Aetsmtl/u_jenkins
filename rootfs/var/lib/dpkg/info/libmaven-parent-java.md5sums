@@ -1,0 +1,6 @@
+fb8fbec25a70d3960b466bad8b64565f  usr/share/doc/libmaven-parent-java/changelog.Debian.gz
+d2032733062a0b0f37b8d69326b1216e  usr/share/doc/libmaven-parent-java/copyright
+1b110b55dd0578ba90df3c1890bbd993  usr/share/maven-repo/org/apache/maven/maven-parent/21/maven-parent-21-site.xml
+5da10ad94896b87d9854dffe5475ecda  usr/share/maven-repo/org/apache/maven/maven-parent/21/maven-parent-21.pom
+1b110b55dd0578ba90df3c1890bbd993  usr/share/maven-repo/org/apache/maven/maven-parent/debian/maven-parent-debian-site.xml
+8f14bafd195db88e85a8db3f4c23e2ca  usr/share/maven-repo/org/apache/maven/maven-parent/debian/maven-parent-debian.pom

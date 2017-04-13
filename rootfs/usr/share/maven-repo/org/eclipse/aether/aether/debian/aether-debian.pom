@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ ~ Copyright (c) 2010, 2014 Sonatype, Inc.
+ ~ All rights reserved. This program and the accompanying materials
+ ~ are made available under the terms of the Eclipse Public License v1.0
+ ~ which accompanies this distribution, and is available at
+ ~ http://www.eclipse.org/legal/epl-v10.html
+ ~
+ ~ Contributors:
+ ~    Sonatype, Inc. - initial API and implementation
+-->
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>org.eclipse.aether</groupId>
+	<artifactId>aether</artifactId>
+	<version>debian</version>
+	<packaging>pom</packaging>
+	<name>Aether</name>
+	<description>The parent and aggregator for the repository system.</description>
+	<url>http://www.eclipse.org/aether/</url>
+	<inceptionYear>2010</inceptionYear>
+	<organization>
+		<name>The Eclipse Foundation</name>
+		<url>http://www.eclipse.org/</url>
+	</organization>
+	<mailingLists>
+		<mailingList>
+			<name>Aether Developer List</name>
+			<subscribe>https://dev.eclipse.org/mailman/listinfo/aether-dev</subscribe>
+			<unsubscribe>https://dev.eclipse.org/mailman/listinfo/aether-dev</unsubscribe>
+			<post>aether-dev@eclipse.org</post>
+			<archive>http://dev.eclipse.org/mhonarc/lists/aether-dev/</archive>
+		</mailingList>
+		<mailingList>
+			<name>Aether User List</name>
+			<subscribe>https://dev.eclipse.org/mailman/listinfo/aether-users</subscribe>
+			<unsubscribe>https://dev.eclipse.org/mailman/listinfo/aether-users</unsubscribe>
+			<post>aether-users@eclipse.org</post>
+			<archive>http://dev.eclipse.org/mhonarc/lists/aether-users/</archive>
+		</mailingList>
+		<mailingList>
+			<name>Aether Commit Notification List</name>
+			<subscribe>https://dev.eclipse.org/mailman/listinfo/aether-commit</subscribe>
+			<unsubscribe>https://dev.eclipse.org/mailman/listinfo/aether-commit</unsubscribe>
+			<archive>http://dev.eclipse.org/mhonarc/lists/aether-commit/</archive>
+		</mailingList>
+		<mailingList>
+			<name>Aether CI Notification List</name>
+			<subscribe>https://dev.eclipse.org/mailman/listinfo/aether-build</subscribe>
+			<unsubscribe>https://dev.eclipse.org/mailman/listinfo/aether-build</unsubscribe>
+			<archive>http://dev.eclipse.org/mhonarc/lists/aether-build/</archive>
+		</mailingList>
+	</mailingLists>
+	<scm>
+		<connection>scm:git:git://git.eclipse.org/gitroot/aether/aether-core.git</connection>
+		<developerConnection>scm:git:ssh://git.eclipse.org/gitroot/aether/aether-core.git</developerConnection>
+		<url>http://git.eclipse.org/c/aether/aether-core.git/tree/</url>
+	</scm>
+	<issueManagement>
+		<system>bugzilla</system>
+		<url>https://bugs.eclipse.org/bugs/buglist.cgi?query_format=specific&amp;bug_status=__open__&amp;product=Aether</url>
+	</issueManagement>
+	<licenses>
+		<license>
+			<name>Eclipse Public License, Version 1.0</name>
+			<url>http://www.eclipse.org/legal/epl-v10.html</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+	<developers>
+		<developer>
+			<id>bbentmann</id>
+			<name>Benjamin Bentmann</name>
+			<roles>
+				<role>Project Lead</role>
+			</roles>
+		</developer>
+		<developer>
+			<id>jvanzyl</id>
+			<name>Jason Van Zyl</name>
+			<roles>
+				<role>Project Lead</role>
+			</roles>
+		</developer>
+	</developers>
+	<modules>
+		<!-- NOTE: Be sure to update the bin assembly descriptor as well if the module list changes -->
+		<module>aether-api</module>
+		<module>aether-spi</module>
+		<module>aether-util</module>
+		<module>aether-impl</module>
+		<module>aether-test-util</module>
+		<module>aether-connector-basic</module>
+		<module>aether-transport-classpath</module>
+		<module>aether-transport-file</module>
+		<module>aether-transport-http</module>
+		<module>aether-transport-wagon</module>
+	</modules>
+	<properties>
+		<bundle.env>J2SE-1.5</bundle.env>
+		<bundle.vendor>Eclipse Aether</bundle.vendor>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<surefire.redirectTestOutputToFile>true</surefire.redirectTestOutputToFile>
+		<sonatypeOssDistMgmtSnapshotsId>sonatype-nexus-snapshots</sonatypeOssDistMgmtSnapshotsId>
+		<sonatypeOssDistMgmtSnapshotsUrl>https://oss.sonatype.org/content/repositories/snapshots/</sonatypeOssDistMgmtSnapshotsUrl>
+		
+			<debian.originalVersion>1.0.2.v20150114</debian.originalVersion>
+		
+			<debian.package>libeclipse-aether-java</debian.package>
+	</properties>
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>org.eclipse.aether</groupId>
+				<artifactId>aether-api</artifactId>
+				<version>debian</version>
+			</dependency>
+			<dependency>
+				<groupId>org.eclipse.aether</groupId>
+				<artifactId>aether-spi</artifactId>
+				<version>debian</version>
+			</dependency>
+			<dependency>
+				<groupId>org.eclipse.aether</groupId>
+				<artifactId>aether-util</artifactId>
+				<version>debian</version>
+			</dependency>
+			<dependency>
+				<groupId>org.eclipse.aether</groupId>
+				<artifactId>aether-impl</artifactId>
+				<version>debian</version>
+			</dependency>
+			<dependency>
+				<groupId>org.eclipse.aether</groupId>
+				<artifactId>aether-connector-basic</artifactId>
+				<version>debian</version>
+			</dependency>
+			<dependency>
+				<groupId>org.eclipse.aether</groupId>
+				<artifactId>aether-test-util</artifactId>
+				<version>debian</version>
+				<scope>test</scope>
+			</dependency>
+			<dependency>
+				<groupId>junit</groupId>
+				<artifactId>junit</artifactId>
+				<version>4.x</version>
+				<scope>test</scope>
+			</dependency>
+			<dependency>
+				<groupId>org.hamcrest</groupId>
+				<artifactId>hamcrest-core</artifactId>
+				<version>debian</version>
+				<scope>test</scope>
+			</dependency>
+			<dependency>
+				<groupId>org.hamcrest</groupId>
+				<artifactId>hamcrest-library</artifactId>
+				<version>debian</version>
+				<scope>test</scope>
+			</dependency>
+			<dependency>
+				<groupId>javax.inject</groupId>
+				<artifactId>javax.inject</artifactId>
+				<version>debian</version>
+				<scope>provided</scope>
+			</dependency>
+			<dependency>
+				<groupId>org.codehaus.plexus</groupId>
+				<artifactId>plexus-component-annotations</artifactId>
+				<version>1.5.5</version>
+				<scope>provided</scope>
+			</dependency>
+			<dependency>
+				<groupId>org.eclipse.sisu</groupId>
+				<artifactId>org.eclipse.sisu.inject</artifactId>
+				<version>debian</version>
+			</dependency>
+			<dependency>
+				<groupId>org.eclipse.sisu</groupId>
+				<artifactId>org.eclipse.sisu.plexus</artifactId>
+				<version>debian</version>
+				<exclusions>
+					<exclusion>
+						<groupId>javax.enterprise</groupId>
+						<artifactId>cdi-api</artifactId>
+					</exclusion>
+				</exclusions>
+			</dependency>
+			<dependency>
+				<groupId>org.sonatype.sisu</groupId>
+				<artifactId>sisu-guice</artifactId>
+				<version>debian</version>
+				<classifier>no_aop</classifier>
+				<exclusions>
+					<exclusion>
+						<groupId>aopalliance</groupId>
+						<artifactId>aopalliance</artifactId>
+					</exclusion>
+					<exclusion>
+						<groupId>com.google.code.findbugs</groupId>
+						<artifactId>jsr305</artifactId>
+					</exclusion>
+				</exclusions>
+			</dependency>
+			<dependency>
+				<groupId>org.slf4j</groupId>
+				<artifactId>slf4j-api</artifactId>
+				<version>debian</version>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+</project>

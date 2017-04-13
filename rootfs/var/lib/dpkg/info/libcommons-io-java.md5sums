@@ -1,0 +1,7 @@
+483a6da24b350ffb5c8d58f4d1cbfb77  usr/share/doc/libcommons-io-java/NOTICE.txt
+9899c46c8269508e373170092bab6f4d  usr/share/doc/libcommons-io-java/RELEASE-NOTES.txt.gz
+315b8448fbd81727fcca894aa0c4bcb7  usr/share/doc/libcommons-io-java/changelog.Debian.gz
+d381993439c67bdd8957aa4941ebd259  usr/share/doc/libcommons-io-java/copyright
+113c7be369ae6410d6ded1cb692a8b31  usr/share/java/commons-io-2.4.jar
+51f851cdd523e7078a6e26338e5a3c95  usr/share/maven-repo/commons-io/commons-io/2.4/commons-io-2.4.pom
+d1d00dd605085689def6a855d3b86e31  usr/share/maven-repo/commons-io/commons-io/debian/commons-io-debian.pom

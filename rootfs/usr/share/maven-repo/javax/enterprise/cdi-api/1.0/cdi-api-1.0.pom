@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>javax.enterprise</groupId>
+	<artifactId>cdi-api</artifactId>
+	<version>1.0</version>
+	<packaging>jar</packaging><properties>
+		
+			<debian.originalVersion>1.0</debian.originalVersion>
+		
+			<debian.package>libcdi-api-java</debian.package>
+	</properties>
+	
+	<name>CDI APIs</name>
+	<description>APIs for JSR-299: Contexts and Dependency Injection for Java EE</description>
+	<dependencies>
+		<dependency>
+			<groupId>javax.el</groupId>
+			<artifactId>el-api</artifactId>
+			<optional>true</optional>
+		<version>debian</version>
+		</dependency>
+		<dependency>
+			<groupId>javax.inject</groupId>
+			<artifactId>javax.inject</artifactId>
+		<version>debian</version>
+		</dependency>
+	</dependencies>
+</project>

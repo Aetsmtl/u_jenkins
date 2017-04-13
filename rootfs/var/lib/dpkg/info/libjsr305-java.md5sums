@@ -1,0 +1,8 @@
+9b3a365f07eac69d480f93a0ddc03370  usr/share/doc/libjsr305-java/changelog.Debian.gz
+b5e48f6f5206f28ab7fc833a2209997e  usr/share/doc/libjsr305-java/copyright
+cc0d0e0d6b925b1b898df44d4cdb2ef1  usr/share/java/jsr305-0.1~+svn49.jar
+49010080fe884806e64c12cc383190cf  usr/share/lintian/overrides/libjsr305-java
+15f5065c4a065008e2ed9c9189c7797f  usr/share/maven-repo/com/google/code/findbugs/jsr305/0.1-SNAPSHOT/jsr305-0.1-SNAPSHOT.pom
+a17b1dd7ea01d98ae529be39caf4c5f8  usr/share/maven-repo/com/google/code/findbugs/jsr305/0.x/jsr305-0.x.pom
+4c953d3f49f7b6bb6c4f0280e15f2ad7  usr/share/maven-repo/org/jsr-305/jsr305/0.1-SNAPSHOT/jsr305-0.1-SNAPSHOT.pom
+ef80bd1c7338f888d1ee4429e371bd5b  usr/share/maven-repo/org/jsr-305/jsr305/0.x/jsr305-0.x.pom

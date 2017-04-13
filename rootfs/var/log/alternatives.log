@@ -90,3 +90,43 @@ update-alternatives 2017-04-13 09:10:23: run with --install /usr/bin/rename rena
 update-alternatives 2017-04-13 09:10:23: link group rename updated to point to /usr/bin/prename
 update-alternatives 2017-04-13 09:10:24: run with --install /usr/bin/rename rename /usr/bin/file-rename 70 --slave /usr/share/man/man1/rename.1.gz rename.1.gz /usr/share/man/man1/file-rename.1p.gz
 update-alternatives 2017-04-13 09:10:24: link group rename updated to point to /usr/bin/file-rename
+update-alternatives 2017-04-13 09:49:57: run with --install /usr/bin/write write /usr/bin/bsd-write 100 --slave /usr/share/man/man1/write.1.gz write.1.gz /usr/share/man/man1/bsd-write.1.gz
+update-alternatives 2017-04-13 09:49:57: link group write updated to point to /usr/bin/bsd-write
+update-alternatives 2017-04-13 09:49:57: run with --install /usr/bin/from from /usr/bin/bsd-from 10 --slave /usr/share/man/man1/from.1.gz from.1.gz /usr/share/man/man1/bsd-from.1.gz
+update-alternatives 2017-04-13 09:49:57: link group from updated to point to /usr/bin/bsd-from
+update-alternatives 2017-04-13 09:50:11: run with --install /usr/lib/i386-linux-gnu/libtxc_dxtn.so libtxc-dxtn-i386-linux-gnu /usr/lib/i386-linux-gnu/libtxc_dxtn_s2tc.so.0 10
+update-alternatives 2017-04-13 09:50:11: link group libtxc-dxtn-i386-linux-gnu updated to point to /usr/lib/i386-linux-gnu/libtxc_dxtn_s2tc.so.0
+update-alternatives 2017-04-13 09:50:16: run with --force --install /etc/ld.so.conf.d/i386-linux-gnu_EGL.conf i386-linux-gnu_egl_conf /usr/lib/i386-linux-gnu/mesa-egl/ld.so.conf 500
+update-alternatives 2017-04-13 09:50:16: link group i386-linux-gnu_egl_conf updated to point to /usr/lib/i386-linux-gnu/mesa-egl/ld.so.conf
+update-alternatives 2017-04-13 09:50:18: run with --force --install /etc/ld.so.conf.d/i386-linux-gnu_GL.conf i386-linux-gnu_gl_conf /usr/lib/i386-linux-gnu/mesa/ld.so.conf 500 --slave /usr/lib/i386-linux-gnu/xorg/extra-modules i386-linux-gnu_xorg_extra_modules /usr/lib/i386-linux-gnu/xorg/x11-extra-modules
+update-alternatives 2017-04-13 09:50:18: link group i386-linux-gnu_gl_conf updated to point to /usr/lib/i386-linux-gnu/mesa/ld.so.conf
+update-alternatives 2017-04-13 09:50:19: run with --install /usr/bin/gnome-text-editor gnome-text-editor /usr/bin/gedit 50 --slave /usr/share/man/man1/gnome-text-editor.1.gz gnome-text-editor.1.gz /usr/share/man/man1/gedit.1.gz
+update-alternatives 2017-04-13 09:50:19: link group gnome-text-editor updated to point to /usr/bin/gedit
+update-alternatives 2017-04-13 09:50:20: run with --install /usr/share/icons/default/index.theme x-cursor-theme /usr/share/icons/Adwaita/cursor.theme 90
+update-alternatives 2017-04-13 09:50:20: link group x-cursor-theme updated to point to /usr/share/icons/Adwaita/cursor.theme
+update-alternatives 2017-04-13 09:50:56: run with --remove gnome-text-editor /usr/bin/gedit
+update-alternatives 2017-04-13 09:50:56: link group gnome-text-editor fully removed
+update-alternatives 2017-04-13 09:53:43: run with --install /usr/bin/rmid rmid /usr/lib/jvm/java-8-openjdk-i386/jre/bin/rmid 1081 --slave /usr/share/man/man1/rmid.1.gz rmid.1.gz /usr/lib/jvm/java-8-openjdk-i386/jre/man/man1/rmid.1.gz
+update-alternatives 2017-04-13 09:53:43: link group rmid updated to point to /usr/lib/jvm/java-8-openjdk-i386/jre/bin/rmid
+update-alternatives 2017-04-13 09:53:43: run with --install /usr/bin/java java /usr/lib/jvm/java-8-openjdk-i386/jre/bin/java 1081 --slave /usr/share/man/man1/java.1.gz java.1.gz /usr/lib/jvm/java-8-openjdk-i386/jre/man/man1/java.1.gz
+update-alternatives 2017-04-13 09:53:43: link group java updated to point to /usr/lib/jvm/java-8-openjdk-i386/jre/bin/java
+update-alternatives 2017-04-13 09:53:43: run with --install /usr/bin/keytool keytool /usr/lib/jvm/java-8-openjdk-i386/jre/bin/keytool 1081 --slave /usr/share/man/man1/keytool.1.gz keytool.1.gz /usr/lib/jvm/java-8-openjdk-i386/jre/man/man1/keytool.1.gz
+update-alternatives 2017-04-13 09:53:43: link group keytool updated to point to /usr/lib/jvm/java-8-openjdk-i386/jre/bin/keytool
+update-alternatives 2017-04-13 09:53:43: run with --install /usr/bin/jjs jjs /usr/lib/jvm/java-8-openjdk-i386/jre/bin/jjs 1081 --slave /usr/share/man/man1/jjs.1.gz jjs.1.gz /usr/lib/jvm/java-8-openjdk-i386/jre/man/man1/jjs.1.gz
+update-alternatives 2017-04-13 09:53:43: link group jjs updated to point to /usr/lib/jvm/java-8-openjdk-i386/jre/bin/jjs
+update-alternatives 2017-04-13 09:53:43: run with --install /usr/bin/pack200 pack200 /usr/lib/jvm/java-8-openjdk-i386/jre/bin/pack200 1081 --slave /usr/share/man/man1/pack200.1.gz pack200.1.gz /usr/lib/jvm/java-8-openjdk-i386/jre/man/man1/pack200.1.gz
+update-alternatives 2017-04-13 09:53:43: link group pack200 updated to point to /usr/lib/jvm/java-8-openjdk-i386/jre/bin/pack200
+update-alternatives 2017-04-13 09:53:43: run with --install /usr/bin/rmiregistry rmiregistry /usr/lib/jvm/java-8-openjdk-i386/jre/bin/rmiregistry 1081 --slave /usr/share/man/man1/rmiregistry.1.gz rmiregistry.1.gz /usr/lib/jvm/java-8-openjdk-i386/jre/man/man1/rmiregistry.1.gz
+update-alternatives 2017-04-13 09:53:43: link group rmiregistry updated to point to /usr/lib/jvm/java-8-openjdk-i386/jre/bin/rmiregistry
+update-alternatives 2017-04-13 09:53:43: run with --install /usr/bin/unpack200 unpack200 /usr/lib/jvm/java-8-openjdk-i386/jre/bin/unpack200 1081 --slave /usr/share/man/man1/unpack200.1.gz unpack200.1.gz /usr/lib/jvm/java-8-openjdk-i386/jre/man/man1/unpack200.1.gz
+update-alternatives 2017-04-13 09:53:43: link group unpack200 updated to point to /usr/lib/jvm/java-8-openjdk-i386/jre/bin/unpack200
+update-alternatives 2017-04-13 09:53:43: run with --install /usr/bin/orbd orbd /usr/lib/jvm/java-8-openjdk-i386/jre/bin/orbd 1081 --slave /usr/share/man/man1/orbd.1.gz orbd.1.gz /usr/lib/jvm/java-8-openjdk-i386/jre/man/man1/orbd.1.gz
+update-alternatives 2017-04-13 09:53:43: link group orbd updated to point to /usr/lib/jvm/java-8-openjdk-i386/jre/bin/orbd
+update-alternatives 2017-04-13 09:53:43: run with --install /usr/bin/servertool servertool /usr/lib/jvm/java-8-openjdk-i386/jre/bin/servertool 1081 --slave /usr/share/man/man1/servertool.1.gz servertool.1.gz /usr/lib/jvm/java-8-openjdk-i386/jre/man/man1/servertool.1.gz
+update-alternatives 2017-04-13 09:53:43: link group servertool updated to point to /usr/lib/jvm/java-8-openjdk-i386/jre/bin/servertool
+update-alternatives 2017-04-13 09:53:43: run with --install /usr/bin/tnameserv tnameserv /usr/lib/jvm/java-8-openjdk-i386/jre/bin/tnameserv 1081 --slave /usr/share/man/man1/tnameserv.1.gz tnameserv.1.gz /usr/lib/jvm/java-8-openjdk-i386/jre/man/man1/tnameserv.1.gz
+update-alternatives 2017-04-13 09:53:43: link group tnameserv updated to point to /usr/lib/jvm/java-8-openjdk-i386/jre/bin/tnameserv
+update-alternatives 2017-04-13 09:53:43: run with --install /usr/bin/jexec jexec /usr/lib/jvm/java-8-openjdk-i386/jre/lib/jexec 1081 --slave /usr/share/binfmts/jar jexec-binfmt /usr/lib/jvm/java-8-openjdk-i386/jre/lib/jar.binfmt
+update-alternatives 2017-04-13 09:53:43: link group jexec updated to point to /usr/lib/jvm/java-8-openjdk-i386/jre/lib/jexec
+update-alternatives 2017-04-13 09:53:45: run with --install /usr/bin/mvn mvn /usr/share/maven/bin/mvn 300 --slave /usr/bin/mvnDebug mvnDebug /usr/share/maven/bin/mvnDebug --slave /usr/share/man/man1/mvn.1.gz mvn.1.gz /usr/share/maven/man/mvn.1.gz --slave /usr/share/man/man1/mvnDebug.1.gz mvnDebug.1.gz /usr/share/maven/man/mvnDebug.1.gz
+update-alternatives 2017-04-13 09:53:45: link group mvn updated to point to /usr/share/maven/bin/mvn

@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>cglib</groupId>
+	<artifactId>cglib</artifactId>
+	<version>3.1</version>
+	<packaging>jar</packaging><properties>
+		
+			<debian.ant.ant.originalVersion>1.6.2</debian.ant.ant.originalVersion>
+		
+			<debian.mavenRules>cglib * * s/3\..*/3.x/ * *</debian.mavenRules>
+		
+			<debian.org.ow2.asm.asm-util.originalVersion>4.2</debian.org.ow2.asm.asm-util.originalVersion>
+		
+			<debian.org.ow2.asm.asm.originalVersion>4.2</debian.org.ow2.asm.asm.originalVersion>
+		
+			<debian.originalVersion>3.1</debian.originalVersion>
+		
+			<debian.package>libcglib3-java</debian.package>
+	</properties>
+	
+	<name>Code Generation Library</name>
+	<url>http://cglib.sourceforge.net/</url>
+	<description>Code generation library</description>
+	<licenses>
+		<license>
+			<name>ASF 2.0</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+	<scm>
+		<connection>scm:cvs:pserver:anonymous@cglib.cvs.sourceforge.net:/cvsroot/cglib:cglib</connection>
+		<url>http://cglib.cvs.sourceforge.net/cglib</url>
+	</scm>
+	<dependencies>
+		<dependency>
+			<groupId>org.ow2.asm</groupId>
+			<artifactId>asm</artifactId>
+			<version>4.x</version>
+		</dependency>
+		<dependency>
+			<groupId>org.ow2.asm</groupId>
+			<artifactId>asm-util</artifactId>
+			<version>4.x</version>
+			<optional>true</optional>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.ant</groupId>
+			<artifactId>ant</artifactId>
+			<version>debian</version>
+			<optional>true</optional>
+		</dependency>
+	</dependencies>
+	<developers>
+		<developer>
+			<id>baliuka</id>
+			<name>Juozas Baliuka</name>
+		</developer>
+		<developer>
+			<id>herbyderby</id>
+			<name>Chris Nokleberg</name>
+		</developer>
+		<developer>
+			<id>sameb</id>
+			<name>Sam Berlin</name>
+		</developer>
+	</developers>
+</project>

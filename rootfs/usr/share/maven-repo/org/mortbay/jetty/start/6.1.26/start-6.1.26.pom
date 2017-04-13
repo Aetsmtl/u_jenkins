@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>org.mortbay.jetty</groupId>
+	<artifactId>start</artifactId>
+	<version>6.1.26</version>
+	<packaging>jar</packaging>
+	<parent>
+		<groupId>org.mortbay.jetty</groupId>
+		<artifactId>project</artifactId>
+		<version>6.x</version>
+	</parent>
+	<properties>
+		
+			<debian.mavenRules>org.mortbay.jetty * * s/6\..*/6.x/ * *</debian.mavenRules>
+		
+			<debian.originalVersion>6.1.26</debian.originalVersion>
+		
+			<debian.package>libjetty-java</debian.package>
+	</properties>
+	
+	<name>Jetty start jar</name>
+</project>

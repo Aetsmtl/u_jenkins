@@ -1,0 +1,10 @@
+43043ef09a2e9f5c6b0ec0563018f187  usr/share/doc/libhttpcore-java/changelog.Debian.gz
+cfea01bc2b276c6e51136750be95f32d  usr/share/doc/libhttpcore-java/copyright
+5e23d5baf9cea08d2706ef94ae6b3113  usr/share/java/httpcore-nio.jar
+f47bb046ab69998cc895fe787f0250f3  usr/share/java/httpcore.jar
+571c993ffd4479fd81689d262f0e507d  usr/share/maven-repo/org/apache/httpcomponents/httpcomponents-core/4.4.4/httpcomponents-core-4.4.4.pom
+85eb8b0b4a306b89beb80ac792910e19  usr/share/maven-repo/org/apache/httpcomponents/httpcomponents-core/debian/httpcomponents-core-debian.pom
+786800b79dd3cb11ef0032e9533baedb  usr/share/maven-repo/org/apache/httpcomponents/httpcore-nio/4.4.4/httpcore-nio-4.4.4.pom
+1e30cbb77995b0a66dd66cc00051f1bc  usr/share/maven-repo/org/apache/httpcomponents/httpcore-nio/debian/httpcore-nio-debian.pom
+ed7e932d7851763f6cba83b20732bbde  usr/share/maven-repo/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.pom
+07376bc49c11627d53e49cf3de4aca79  usr/share/maven-repo/org/apache/httpcomponents/httpcore/debian/httpcore-debian.pom

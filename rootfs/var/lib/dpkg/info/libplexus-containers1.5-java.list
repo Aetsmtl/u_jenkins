@@ -1,0 +1,10 @@
+/.
+/usr
+/usr/share
+/usr/share/lintian
+/usr/share/lintian/overrides
+/usr/share/lintian/overrides/libplexus-containers1.5-java
+/usr/share/doc
+/usr/share/doc/libplexus-containers1.5-java
+/usr/share/doc/libplexus-containers1.5-java/copyright
+/usr/share/doc/libplexus-containers1.5-java/changelog.Debian.gz

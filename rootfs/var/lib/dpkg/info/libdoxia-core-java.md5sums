@@ -1,0 +1,13 @@
+a4adabd1495c69641773eb1698dc572e  usr/share/doc/libdoxia-core-java/changelog.Debian.gz
+9654409a79388308b33c6987ce039562  usr/share/doc/libdoxia-core-java/copyright
+1eefbed4e543c059828c516b8effb60c  usr/share/java/doxia-core.jar
+53fa111a7ab05b9b303054b3bcc174af  usr/share/java/doxia-logging-api.jar
+d585ca8381f10382c12e9f1f5cc93aa5  usr/share/java/doxia-sink-api.jar
+94ed7a0a4a42d47ff70ba532e2f5915a  usr/share/maven-repo/org/apache/maven/doxia/doxia-core/1.1.4/doxia-core-1.1.4.pom
+fa5efcd04ab19d0d5b80ac9d50307e9b  usr/share/maven-repo/org/apache/maven/doxia/doxia-core/debian/doxia-core-debian.pom
+274241a6c9803c4a47d736031315c372  usr/share/maven-repo/org/apache/maven/doxia/doxia-logging-api/1.1.4/doxia-logging-api-1.1.4.pom
+53b62e257bca1f598a531e4cc9f029b8  usr/share/maven-repo/org/apache/maven/doxia/doxia-logging-api/debian/doxia-logging-api-debian.pom
+9ece42bcf0787d98ca574e10ecc8848f  usr/share/maven-repo/org/apache/maven/doxia/doxia-sink-api/1.1.4/doxia-sink-api-1.1.4.pom
+4f2d8aa9254168cce8496e1533198c08  usr/share/maven-repo/org/apache/maven/doxia/doxia-sink-api/debian/doxia-sink-api-debian.pom
+b33faf46b7473b5a4f7468cea47d81f5  usr/share/maven-repo/org/apache/maven/doxia/doxia/1.1.4/doxia-1.1.4.pom
+57750cfb5f3c5712a8677de8165d948f  usr/share/maven-repo/org/apache/maven/doxia/doxia/debian/doxia-debian.pom

@@ -1,8 +1,9 @@
-TARGETS = rsyslog killprocs single cron ssh rsync rc.local ondemand
+TARGETS = rsyslog killprocs single cron ssh rsync dbus rc.local ondemand
 INTERACTIVE =
 single: killprocs
 cron: rsyslog
 ssh: rsyslog
 rsync: rsyslog
-rc.local: rsyslog cron ssh rsync
-ondemand: rsyslog cron ssh rsync
+dbus: rsyslog
+rc.local: rsyslog cron ssh rsync dbus
+ondemand: rsyslog cron ssh rsync dbus

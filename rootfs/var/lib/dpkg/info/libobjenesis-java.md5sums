@@ -1,0 +1,7 @@
+cfeb7443aa6bbb20d6b5b6c6bb47e000  usr/share/doc/libobjenesis-java/changelog.Debian.gz
+f8a6d70b6ee803d5989f808458c74c9c  usr/share/doc/libobjenesis-java/copyright
+d0aab253f07e29544bcce2ab0b6aabf9  usr/share/java/objenesis.jar
+8de7bc5e713a38bbd2a1820db08cb7cf  usr/share/maven-repo/org/objenesis/objenesis-parent/2.2/objenesis-parent-2.2.pom
+37695b3295e06419af4bba3b2d208fc9  usr/share/maven-repo/org/objenesis/objenesis-parent/debian/objenesis-parent-debian.pom
+4b38b7af0d730796783fcf3b1ea7bd7e  usr/share/maven-repo/org/objenesis/objenesis/2.2/objenesis-2.2.pom
+8217de49e074eeb566027f622a9f9007  usr/share/maven-repo/org/objenesis/objenesis/debian/objenesis-debian.pom

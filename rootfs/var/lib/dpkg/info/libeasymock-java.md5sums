@@ -1,0 +1,6 @@
+85a6112a34ce7b77d2aafd8ccc070fe1  usr/share/doc/libeasymock-java/README.Debian
+1d615456c2d65b31a5d39c380c716aba  usr/share/doc/libeasymock-java/changelog.Debian.gz
+03bf70b3286fa964e84479885acfad8f  usr/share/doc/libeasymock-java/copyright
+66f0f67b129dd0b0252428ef61b751ee  usr/share/java/easymock-3.3.1+ds.jar
+06c61d571dd11be115dca39ff0fb419f  usr/share/maven-repo/org/easymock/easymock/3.3.1/easymock-3.3.1.pom
+09fb3e570d0a3d18743497dc551346d5  usr/share/maven-repo/org/easymock/easymock/debian/easymock-debian.pom

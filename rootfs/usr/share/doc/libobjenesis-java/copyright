@@ -1,0 +1,28 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: Objenesis - Java library to instantiate a new object of a particular class
+Upstream-Contact: Objenesis Team <http://groups.google.com/group/objenesis-dev>
+Source: https://github.com/easymock/objenesis
+
+Files: *
+Copyright: 2006-2014 Joe Walnes, Henri Tremblay, Leonardo Mesquita
+License: Apache-2.0
+
+Files: main/src/main/java/org/objenesis/instantiator/jrockit/JRockitLegacyInstantiator.java
+Copyright: 2006, BEA Systems, inc.
+License: permissive
+ This code is Copyright (c) 2006 BEA Systems, inc. It is provided free, as-is
+ and without any warranties for the purpose of inclusion in Objenesis or any
+ other open source project with a FSF approved license, as long as this notice
+ is not removed. There are no limitations on modifying or repackaging the code
+ apart from this. BEA does not guarantee that the code works, and provides no
+ support for it. Use at your own risk. Originally developed by Leonardo
+ Mesquita. Copyright notice added by Henrik Ståhl, BEA JRockit Product Manager.
+
+Files: debian/*
+Copyright: 2010,      Gabriele Giacone <1o5g4r8o@gmail.com>
+           2014-2015, Markus Koschany <apo@debian.org>
+License: Apache-2.0
+
+License: Apache-2.0
+  On Debian GNU/Linux system you can find the complete text of the
+  Apache Software License version 2.0 in '/usr/share/common-licenses/Apache-2.0'

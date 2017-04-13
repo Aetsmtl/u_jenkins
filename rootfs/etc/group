@@ -48,3 +48,6 @@ syslog:x:108:
 netdev:x:109:
 ssh:x:110:
 ubuntu:x:1000:
+messagebus:x:111:
+scanner:x:112:
+colord:x:113:

@@ -1,0 +1,8 @@
+081ccabfe3115231c10f7dbef601e668  usr/share/doc/libcommons-net-java/NOTICE.txt
+60ac574c15f525e4e383ee080fb8a9d4  usr/share/doc/libcommons-net-java/README
+f12a11c3f6a4f899ee657cd26ec6e426  usr/share/doc/libcommons-net-java/README.Debian
+85ce645d3aca3cd6ca8919e56c8550c2  usr/share/doc/libcommons-net-java/changelog.Debian.gz
+7a69305b720dbf435ebf96f9d21173ec  usr/share/doc/libcommons-net-java/copyright
+e18114370bca035d74f71441ba9c8e56  usr/share/java/commons-net-3.4.jar
+d125767dfac3527537600d65eeb695bf  usr/share/maven-repo/commons-net/commons-net/3.4/commons-net-3.4.pom
+90545d60c76a306fca468310bdc7818b  usr/share/maven-repo/commons-net/commons-net/debian/commons-net-debian.pom

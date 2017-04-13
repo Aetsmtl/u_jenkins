@@ -18,7 +18,7 @@ voice:*::
 cdrom:*::
 floppy:*::
 tape:*::
-sudo:*::
+sudo:*::ubuntu
 audio:*::
 dip:*::
 www-data:*::
@@ -48,3 +48,5 @@ syslog:!::
 netdev:!::
 ssh:!::
 ubuntu:!::
+messagebus:!::
+scanner:!::

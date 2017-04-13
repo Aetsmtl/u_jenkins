@@ -18,7 +18,7 @@ voice:x:22:
 cdrom:x:24:
 floppy:x:25:
 tape:x:26:
-sudo:x:27:
+sudo:x:27:ubuntu
 audio:x:29:
 dip:x:30:
 www-data:x:33:
@@ -48,3 +48,5 @@ syslog:x:108:
 netdev:x:109:
 ssh:x:110:
 ubuntu:x:1000:
+messagebus:x:111:
+scanner:x:112:

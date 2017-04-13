@@ -1,0 +1,19 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Source: https://svn.codehaus.org/plexus/plexus-components/trunk/plexus-cli/
+
+Files: *
+Copyright: Copyright (c) 2001-2007 The Codehaus.
+Authors:
+  Edwin Punzalan
+  Brett Porter brett@apache.org
+  Joakim Erdfelt joakim@erdfelt.com
+License: Apache-2.0
+
+Files: debian/*
+Copyright: 2008, Paul Cager <paul-debian@home.paulcager.org>
+License: Apache-2.0
+
+License: Apache-2.0
+ On Debian systems, the full text of the Apache-2.0 license
+ can be found in the file '/usr/share/common-licenses/Apache-2.0'
+

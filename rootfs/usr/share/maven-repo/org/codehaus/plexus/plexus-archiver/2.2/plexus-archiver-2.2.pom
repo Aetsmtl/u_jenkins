@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>org.codehaus.plexus</groupId>
+	<artifactId>plexus-archiver</artifactId>
+	<version>2.2</version>
+	<packaging>jar</packaging>
+	<name>Plexus Archiver Component</name>
+	<scm>
+		<connection>scm:git:git@github.com:sonatype/plexus-archiver.git</connection>
+		<developerConnection>scm:git:git@github.com:sonatype/plexus-archiver.git</developerConnection>
+		<url>http://github.com/sonatype/plexus-archiver</url>
+		<tag>plexus-archiver-2.2</tag>
+	</scm>
+	<issueManagement>
+		<system>jira</system>
+		<url>http://jira.codehaus.org/browse/PLXCOMP/component/12540</url>
+	</issueManagement>
+	<properties>
+		<useJvmChmod>true</useJvmChmod>
+		
+			<debian.org.codehaus.plexus.plexus-container-default.originalVersion>1.0-alpha-9-stable-1</debian.org.codehaus.plexus.plexus-container-default.originalVersion>
+		
+			<debian.org.codehaus.plexus.plexus-io.originalVersion>2.0.4</debian.org.codehaus.plexus.plexus-io.originalVersion>
+		
+			<debian.org.codehaus.plexus.plexus-utils.originalVersion>3.0.7</debian.org.codehaus.plexus.plexus-utils.originalVersion>
+		
+			<debian.originalVersion>2.2</debian.originalVersion>
+		
+			<debian.package>libplexus-archiver-java</debian.package>
+	</properties>
+	<contributors>
+		<contributor>
+			<name>Dan Tran</name>
+		</contributor>
+		<contributor>
+			<name>Richard van der Hoff</name>
+		</contributor>
+	</contributors>
+	<dependencies>
+		<dependency>
+			<groupId>org.codehaus.plexus</groupId>
+			<artifactId>plexus-container-default</artifactId>
+			<version>1.0-alpha</version>
+		</dependency>
+		<dependency>
+			<groupId>org.codehaus.plexus</groupId>
+			<artifactId>plexus-utils</artifactId>
+			<version>debian</version>
+		</dependency>
+		<dependency>
+			<groupId>org.codehaus.plexus</groupId>
+			<artifactId>plexus-io</artifactId>
+			<version>debian</version>
+		</dependency>
+	</dependencies>
+</project>

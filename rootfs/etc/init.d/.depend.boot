@@ -1,4 +1,4 @@
-TARGETS = console-setup resolvconf mountkernfs.sh hostname.sh udev keyboard-setup urandom hwclock.sh mountdevsubfs.sh checkroot.sh networking mountall.sh checkfs.sh checkroot-bootclean.sh mountnfs-bootclean.sh mountnfs.sh bootmisc.sh mountall-bootclean.sh procps kmod
+TARGETS = console-setup resolvconf mountkernfs.sh hostname.sh x11-common udev keyboard-setup urandom hwclock.sh mountdevsubfs.sh checkroot.sh networking mountall.sh checkfs.sh checkroot-bootclean.sh mountnfs-bootclean.sh mountnfs.sh bootmisc.sh mountall-bootclean.sh procps kmod
 INTERACTIVE = console-setup udev keyboard-setup checkroot.sh checkfs.sh
 udev: mountkernfs.sh
 keyboard-setup: mountkernfs.sh udev

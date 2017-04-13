@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>org.objenesis</groupId>
+	<artifactId>objenesis</artifactId>
+	<version>2.2</version>
+	<packaging>jar</packaging>
+	<parent>
+		<groupId>org.objenesis</groupId>
+		<artifactId>objenesis-parent</artifactId>
+		<version>debian</version>
+	</parent>
+	<properties>
+		
+			<debian.mavenRules>org.objenesis objenesis jar s/.*/debian/ * *</debian.mavenRules>
+		
+			<debian.originalVersion>2.2</debian.originalVersion>
+		
+			<debian.package>libobjenesis-java</debian.package>
+	</properties>
+	
+	<name>Objenesis</name>
+	<description>A library for instantiating Java objects</description>
+	<url>http://objenesis.org</url>
+</project>

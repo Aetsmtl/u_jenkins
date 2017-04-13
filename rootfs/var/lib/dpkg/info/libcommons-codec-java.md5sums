@@ -1,0 +1,6 @@
+038e42cb217601ca28492259eeb4fa20  usr/share/doc/libcommons-codec-java/TODO
+a048146aec22ec85691e9ffad69583fd  usr/share/doc/libcommons-codec-java/changelog.Debian.gz
+24856a47ae84a024f425f0f997429016  usr/share/doc/libcommons-codec-java/copyright
+e9a4d0a2674fe640279b1bbf672410c1  usr/share/java/commons-codec-1.10.jar
+49620817ceb48e739280d8068d230855  usr/share/maven-repo/commons-codec/commons-codec/1.10/commons-codec-1.10.pom
+02bd12c9fca42e531c0b8f9e860be76d  usr/share/maven-repo/commons-codec/commons-codec/debian/commons-codec-debian.pom

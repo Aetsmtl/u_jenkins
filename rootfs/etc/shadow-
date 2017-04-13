@@ -23,3 +23,6 @@ systemd-bus-proxy:*:17267:0:99999:7:::
 syslog:*:17267:0:99999:7:::
 _apt:*:17267:0:99999:7:::
 sshd:*:17267:0:99999:7:::
+ubuntu:$6$w67ea210$X5VjWIDky4PqsFeu53RiBf6m9W1B/vSizmOuQj9cHclhHhzEDKfB2iKbh9CX66unPOg431VzwxuQmmCFnyEha1:17269:0:99999:7:::
+messagebus:*:17269:0:99999:7:::
+colord:*:17269:0:99999:7:::

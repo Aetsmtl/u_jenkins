@@ -1,0 +1,5 @@
+1e8d05e985b5081aed5553ae586951d4  usr/share/doc/libbsh-java/changelog.Debian.gz
+d889b25adf866e4607f6b3792895263a  usr/share/doc/libbsh-java/copyright
+28821788c90a41a2860749ed29e310a3  usr/share/java/bsh-2.0b4.jar
+a4961152a39160d49373a6acc2e802d7  usr/share/maven-repo/org/beanshell/bsh/2.0b4/bsh-2.0b4.pom
+7de4354210078dc89fe172faf03e08b3  usr/share/maven-repo/org/beanshell/bsh/debian/bsh-debian.pom
