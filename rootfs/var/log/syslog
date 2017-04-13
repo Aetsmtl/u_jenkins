@@ -1,0 +1,100 @@
+Apr 13 08:47:40 ptc_jenkins rsyslogd: [origin software="rsyslogd" swVersion="8.16.0" x-pid="88" x-info="http://www.rsyslog.com"] start
+Apr 13 08:47:40 ptc_jenkins systemd[1]: Failed to reset devices.list on /system.slice/systemd-journal-flush.service: Operation not permitted
+Apr 13 08:47:40 ptc_jenkins systemd[1]: Starting Flush Journal to Persistent Storage...
+Apr 13 08:47:40 ptc_jenkins systemd[1]: Started Flush Journal to Persistent Storage.
+Apr 13 08:47:40 ptc_jenkins systemd[1]: Failed to reset devices.list on /system.slice/systemd-tmpfiles-setup.service: Operation not permitted
+Apr 13 08:47:40 ptc_jenkins systemd[1]: Starting Create Volatile Files and Directories...
+Apr 13 08:47:40 ptc_jenkins systemd[1]: Failed to reset devices.list on /system.slice/resolvconf.service: Operation not permitted
+Apr 13 08:47:40 ptc_jenkins systemd[1]: Failed to reset devices.list on /system.slice/systemd-journal-flush.service: Operation not permitted
+Apr 13 08:47:40 ptc_jenkins systemd-tmpfiles[69]: [/usr/lib/tmpfiles.d/var.conf:14] Duplicate line for path "/var/log", ignoring.
+Apr 13 08:47:40 ptc_jenkins systemd[1]: Started Create Volatile Files and Directories.
+Apr 13 08:47:40 ptc_jenkins systemd[1]: Failed to reset devices.list on /system.slice/systemd-update-utmp.service: Operation not permitted
+Apr 13 08:47:40 ptc_jenkins systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+Apr 13 08:47:40 ptc_jenkins systemd[1]: Reached target System Time Synchronized.
+Apr 13 08:47:40 ptc_jenkins systemd[1]: Failed to reset devices.list on /system.slice/systemd-tmpfiles-setup.service: Operation not permitted
+Apr 13 08:47:40 ptc_jenkins systemd[1]: Started Update UTMP about System Boot/Shutdown.
+Apr 13 08:47:40 ptc_jenkins systemd[1]: Reached target System Initialization.
+Apr 13 08:47:40 ptc_jenkins systemd[1]: Started Daily Cleanup of Temporary Directories.
+Apr 13 08:47:40 ptc_jenkins systemd[1]: Started Trigger resolvconf update for networkd DNS.
+Apr 13 08:47:40 ptc_jenkins systemd[1]: Reached target Paths.
+Apr 13 08:47:40 ptc_jenkins systemd[1]: Reached target Basic System.
+Apr 13 08:47:40 ptc_jenkins systemd[1]: Failed to reset devices.list on /system.slice/getty-static.service: Operation not permitted
+Apr 13 08:47:40 ptc_jenkins systemd[1]: Starting getty on tty2-tty6 if dbus and logind are not available...
+Apr 13 08:47:40 ptc_jenkins systemd[1]: Failed to reset devices.list on /system.slice/systemd-user-sessions.service: Operation not permitted
+Apr 13 08:47:40 ptc_jenkins systemd[1]: Starting Permit User Sessions...
+Apr 13 08:47:40 ptc_jenkins systemd[1]: Failed to reset devices.list on /system.slice/cron.service: Operation not permitted
+Apr 13 08:47:40 ptc_jenkins systemd[1]: Started Regular background program processing daemon.
+Apr 13 08:47:40 ptc_jenkins systemd[1]: Failed to reset devices.list on /system.slice/ondemand.service: Operation not permitted
+Apr 13 08:47:40 ptc_jenkins cron[86]: (CRON) INFO (pidfile fd = 3)
+Apr 13 08:47:40 ptc_jenkins systemd[1]: Starting LSB: Set the CPU Frequency Scaling governor to "ondemand"...
+Apr 13 08:47:40 ptc_jenkins systemd[1]: apt-daily.timer: Adding 3h 51min 54.475555s random time.
+Apr 13 08:47:40 ptc_jenkins systemd[1]: Started Daily apt activities.
+Apr 13 08:47:40 ptc_jenkins systemd[1]: Reached target Timers.
+Apr 13 08:47:40 ptc_jenkins systemd[1]: Failed to reset devices.list on /system.slice/rsyslog.service: Operation not permitted
+Apr 13 08:47:40 ptc_jenkins systemd[1]: Starting System Logging Service...
+Apr 13 08:47:40 ptc_jenkins systemd[1]: Failed to reset devices.list on /system.slice/systemd-update-utmp.service: Operation not permitted
+Apr 13 08:47:40 ptc_jenkins systemd[1]: Started Permit User Sessions.
+Apr 13 08:47:40 ptc_jenkins cron[86]: (CRON) INFO (Running @reboot jobs)
+Apr 13 08:47:40 ptc_jenkins systemd[1]: Started System Logging Service.
+Apr 13 08:47:40 ptc_jenkins rsyslogd-2039: Could not open output pipe '/dev/xconsole':: No such file or directory [v8.16.0 try http://www.rsyslog.com/e/2039 ]
+Apr 13 08:47:40 ptc_jenkins rsyslogd-2007: action 'action 9' suspended, next retry is Thu Apr 13 08:48:10 2017 [v8.16.0 try http://www.rsyslog.com/e/2007 ]
+Apr 13 08:47:40 ptc_jenkins rsyslogd-2222: command 'KLogPermitNonKernelFacility' is currently not permitted - did you already set it via a RainerScript command (v6+ config)? [v8.16.0 try http://www.rsyslog.com/e/2222 ]
+Apr 13 08:47:40 ptc_jenkins rsyslogd: rsyslogd's groupid changed to 108
+Apr 13 08:47:40 ptc_jenkins rsyslogd: rsyslogd's userid changed to 104
+Apr 13 08:47:40 ptc_jenkins systemd[1]: Started getty on tty2-tty6 if dbus and logind are not available.
+Apr 13 08:47:40 ptc_jenkins systemd[1]: Started LSB: Set the CPU Frequency Scaling governor to "ondemand".
+Apr 13 08:47:40 ptc_jenkins dhclient[101]: Internet Systems Consortium DHCP Client 4.3.3
+Apr 13 08:47:40 ptc_jenkins ifup[60]: Internet Systems Consortium DHCP Client 4.3.3
+Apr 13 08:47:40 ptc_jenkins dhclient[101]: Copyright 2004-2015 Internet Systems Consortium.
+Apr 13 08:47:40 ptc_jenkins ifup[60]: Copyright 2004-2015 Internet Systems Consortium.
+Apr 13 08:47:40 ptc_jenkins dhclient[101]: All rights reserved.
+Apr 13 08:47:40 ptc_jenkins ifup[60]: All rights reserved.
+Apr 13 08:47:40 ptc_jenkins dhclient[101]: For info, please visit https://www.isc.org/software/dhcp/
+Apr 13 08:47:40 ptc_jenkins ifup[60]: For info, please visit https://www.isc.org/software/dhcp/
+Apr 13 08:47:40 ptc_jenkins dhclient[101]: 
+Apr 13 08:47:41 ptc_jenkins dhclient[101]: Listening on LPF/eth0/00:16:3e:c8:4c:6b
+Apr 13 08:47:41 ptc_jenkins ifup[60]: Listening on LPF/eth0/00:16:3e:c8:4c:6b
+Apr 13 08:47:41 ptc_jenkins ifup[60]: Sending on   LPF/eth0/00:16:3e:c8:4c:6b
+Apr 13 08:47:41 ptc_jenkins ifup[60]: Sending on   Socket/fallback
+Apr 13 08:47:41 ptc_jenkins dhclient[101]: Sending on   LPF/eth0/00:16:3e:c8:4c:6b
+Apr 13 08:47:41 ptc_jenkins dhclient[101]: Sending on   Socket/fallback
+Apr 13 08:47:41 ptc_jenkins dhclient[101]: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3 (xid=0xd83b7222)
+Apr 13 08:47:41 ptc_jenkins ifup[60]: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3 (xid=0xd83b7222)
+Apr 13 08:47:41 ptc_jenkins dhclient[101]: DHCPREQUEST of 10.0.2.16 on eth0 to 255.255.255.255 port 67 (xid=0x22723bd8)
+Apr 13 08:47:41 ptc_jenkins ifup[60]: DHCPREQUEST of 10.0.2.16 on eth0 to 255.255.255.255 port 67 (xid=0x22723bd8)
+Apr 13 08:47:41 ptc_jenkins ifup[60]: DHCPOFFER of 10.0.2.16 from 10.0.2.2
+Apr 13 08:47:41 ptc_jenkins dhclient[101]: DHCPOFFER of 10.0.2.16 from 10.0.2.2
+Apr 13 08:47:41 ptc_jenkins ifup[60]: DHCPACK of 10.0.2.16 from 10.0.2.2
+Apr 13 08:47:41 ptc_jenkins dhclient[101]: DHCPACK of 10.0.2.16 from 10.0.2.2
+Apr 13 08:47:41 ptc_jenkins dhclient[101]: bound to 10.0.2.16 -- renewal in 42795 seconds.
+Apr 13 08:47:41 ptc_jenkins ifup[60]: bound to 10.0.2.16 -- renewal in 42795 seconds.
+Apr 13 08:47:41 ptc_jenkins systemd[1]: Started Raise network interfaces.
+Apr 13 08:47:41 ptc_jenkins systemd[1]: Reached target Network.
+Apr 13 08:47:41 ptc_jenkins systemd[1]: Failed to reset devices.list on /system.slice/rc-local.service: Operation not permitted
+Apr 13 08:47:41 ptc_jenkins systemd[1]: Starting /etc/rc.local Compatibility...
+Apr 13 08:47:41 ptc_jenkins systemd[1]: Failed to reset devices.list on /system.slice/ssh.service: Operation not permitted
+Apr 13 08:47:41 ptc_jenkins systemd[1]: Starting OpenBSD Secure Shell server...
+Apr 13 08:47:41 ptc_jenkins systemd[1]: Failed to reset devices.list on /system.slice/getty-static.service: Operation not permitted
+Apr 13 08:47:41 ptc_jenkins systemd[1]: Failed to reset devices.list on /system.slice/systemd-user-sessions.service: Operation not permitted
+Apr 13 08:47:41 ptc_jenkins systemd[1]: Started /etc/rc.local Compatibility.
+Apr 13 08:47:41 ptc_jenkins systemd[1]: Started Container Getty on /dev/pts/2.
+Apr 13 08:47:41 ptc_jenkins systemd[1]: Failed to reset devices.list on /system.slice/console-getty.service: Operation not permitted
+Apr 13 08:47:41 ptc_jenkins systemd[1]: Started Console Getty.
+Apr 13 08:47:41 ptc_jenkins systemd[1]: Started Container Getty on /dev/pts/0.
+Apr 13 08:47:41 ptc_jenkins systemd[1]: Started Container Getty on /dev/pts/3.
+Apr 13 08:47:41 ptc_jenkins systemd[1]: Started Container Getty on /dev/pts/1.
+Apr 13 08:47:41 ptc_jenkins systemd[1]: Reached target Login Prompts.
+Apr 13 08:47:41 ptc_jenkins systemd[1]: Failed to reset devices.list on /system.slice/rc-local.service: Operation not permitted
+Apr 13 08:47:42 ptc_jenkins systemd[1]: Started OpenBSD Secure Shell server.
+Apr 13 08:47:42 ptc_jenkins systemd[1]: Reached target Multi-User System.
+Apr 13 08:47:42 ptc_jenkins systemd[1]: Reached target Graphical Interface.
+Apr 13 08:47:42 ptc_jenkins systemd[1]: Failed to reset devices.list on /system.slice/systemd-update-utmp-runlevel.service: Operation not permitted
+Apr 13 08:47:42 ptc_jenkins systemd[1]: Starting Update UTMP about System Runlevel Changes...
+Apr 13 08:47:42 ptc_jenkins systemd[1]: Started Update UTMP about System Runlevel Changes.
+Apr 13 08:47:42 ptc_jenkins systemd[1]: Startup finished in 5.317s.
+Apr 13 08:47:49 ptc_jenkins kernel: [44353.213807] br0: port 2(veth6WWGC6) entered forwarding state
+Apr 13 09:02:43 ptc_jenkins systemd[1]: Failed to reset devices.list on /system.slice/systemd-tmpfiles-clean.service: Operation not permitted
+Apr 13 09:02:43 ptc_jenkins systemd[1]: Starting Cleanup of Temporary Directories...
+Apr 13 09:02:43 ptc_jenkins systemd[1]: Failed to reset devices.list on /system.slice/ondemand.service: Operation not permitted
+Apr 13 09:02:43 ptc_jenkins systemd-tmpfiles[176]: [/usr/lib/tmpfiles.d/var.conf:14] Duplicate line for path "/var/log", ignoring.
+Apr 13 09:02:43 ptc_jenkins systemd[1]: Started Cleanup of Temporary Directories.
