@@ -2,3 +2,39 @@ Package: libpython3.5
 Architecture: i386
 Auto-Installed: 1
 
+Package: rename
+Architecture: i386
+Auto-Installed: 1
+
+Package: git-man
+Architecture: i386
+Auto-Installed: 1
+
+Package: perl-modules-5.22
+Architecture: i386
+Auto-Installed: 1
+
+Package: libperl5.22
+Architecture: i386
+Auto-Installed: 1
+
+Package: libgdbm3
+Architecture: i386
+Auto-Installed: 1
+
+Package: perl
+Architecture: i386
+Auto-Installed: 1
+
+Package: rsync
+Architecture: i386
+Auto-Installed: 1
+
+Package: patch
+Architecture: i386
+Auto-Installed: 1
+
+Package: liberror-perl
+Architecture: i386
+Auto-Installed: 1
+

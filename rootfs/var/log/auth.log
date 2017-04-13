@@ -1,2 +1,13 @@
 Apr 13 08:47:42 ptc_jenkins sshd[164]: Server listening on 0.0.0.0 port 22.
 Apr 13 08:47:42 ptc_jenkins sshd[164]: Server listening on :: port 22.
+Apr 13 09:09:34 ptc_jenkins login[167]: pam_unix(login:session): session opened for user ubuntu by LOGIN(uid=0)
+Apr 13 09:10:08 ptc_jenkins sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt-get install git
+Apr 13 09:10:08 ptc_jenkins sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Apr 13 09:10:25 ptc_jenkins sudo: pam_unix(sudo:session): session closed for user root
+Apr 13 09:11:46 ptc_jenkins sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/su
+Apr 13 09:11:46 ptc_jenkins sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Apr 13 09:11:47 ptc_jenkins su[446]: Successful su for root by root
+Apr 13 09:11:47 ptc_jenkins su[446]: + /dev/pts/0 root:root
+Apr 13 09:11:47 ptc_jenkins su[446]: pam_unix(su:session): session opened for user root by ubuntu(uid=0)
+Apr 13 09:11:53 ptc_jenkins su[446]: pam_unix(su:session): session closed for user root
+Apr 13 09:11:53 ptc_jenkins sudo: pam_unix(sudo:session): session closed for user root
