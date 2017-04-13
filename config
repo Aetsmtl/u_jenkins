@@ -1,0 +1,24 @@
+# Template used to create this container: /usr/share/lxc/templates/lxc-ubuntu
+# Parameters passed to the template:
+# Template script checksum (SHA-1): 704a37e3ce689db94dd1c1a02eae680a00cb5a82
+# For additional config options, please look at lxc.container.conf(5)
+
+# Uncomment the following line to support nesting containers:
+#lxc.include = /usr/share/lxc/config/nesting.conf
+# (Be aware this has security implications)
+
+
+# Common configuration
+lxc.include = /usr/share/lxc/config/ubuntu.common.conf
+
+# Container specific configuration
+lxc.rootfs = /var/lib/lxc/ptc_jenkins/rootfs
+lxc.rootfs.backend = dir
+lxc.utsname = ptc_jenkins
+lxc.arch = i686
+
+# Network configuration
+lxc.network.type = veth
+lxc.network.link = br0
+lxc.network.flags = up
+lxc.network.hwaddr = 00:16:3e:c8:4c:6b
