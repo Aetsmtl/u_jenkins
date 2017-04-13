@@ -11,3 +11,5 @@ Apr 13 09:11:47 ptc_jenkins su[446]: + /dev/pts/0 root:root
 Apr 13 09:11:47 ptc_jenkins su[446]: pam_unix(su:session): session opened for user root by ubuntu(uid=0)
 Apr 13 09:11:53 ptc_jenkins su[446]: pam_unix(su:session): session closed for user root
 Apr 13 09:11:53 ptc_jenkins sudo: pam_unix(sudo:session): session closed for user root
+Apr 13 09:17:01 ptc_jenkins CRON[458]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 13 09:17:01 ptc_jenkins CRON[458]: pam_unix(cron:session): session closed for user root
